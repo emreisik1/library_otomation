@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<EnablePackageDowngrade>true</EnablePackageDowngrade>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="itext7" Version="7.1.16" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="OpenCvSharp4.Windows" Version="4.8.0.20230708" />
+		<PackageReference Include="System.Data.SQLite" Version="1.0.119" />
+		<PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
+		
+
+	</ItemGroup>
+
+</Project>
